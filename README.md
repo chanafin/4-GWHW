@@ -1,2 +1,4 @@
-# 4-GWHW
-Week 4 Homework Assignments
+Pandas Activities - Juptyer
+
+
+GoodReads - the point of this exercise is to incorporate introductory Pandas  concepts and build upon Python knowledge. The first step is to import the csv as a DataFrame. This time, we'll use pd.read_csv, our introduction to Pandas. Since this is larger dataset, the next step is to drill down into the columns that need to be explored. This DataFrame as-is is not formatted. The next step is to rename the columns using the .rename function. Once the DataFrame is formatted properly and contains the columns that need to be explored, the DataFrame can be exported out to CSV. Other exercises that are explored are the functions of .nunique(), .min(), and .max() which are built in Pandas functions which detail the number of unique values, the miniumum value and the maximum value, respectively. The next step is to create a new column in the DataFrame which takes the sum of all 'Reviews' columns using the .sum function. As we are calculating these values, we are storing them in individual DataFrames which can be placed into one summary DataFrame.
